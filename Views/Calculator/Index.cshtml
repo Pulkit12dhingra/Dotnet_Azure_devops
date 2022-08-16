@@ -1,0 +1,18 @@
+﻿
+@model  Assignmnet2.Models.Values
+<html>
+    <head>
+       Please Enter 
+    </head>
+    <body>
+        <form method="post" asp-action="DisplayValue" asp-controller="Calculator">
+         First Value: <input type = "number" name = "t1" asp-for="FirstNumber" />
+         <br>
+         Second Value: <input type = "number" name = "t2" asp-for="SecondNumber"/>
+         <button type="submit">
+             Calculate
+         </button>
+      </form>
+    </body>
+
+</html>
